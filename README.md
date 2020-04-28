@@ -8,7 +8,6 @@ def smallest(number1, number2):
     # do not print anything inside the method
 
     # there must be a return command at the end
-}
 
 def main():
     answer =  smallest(2, 7)

@@ -1,7 +1,6 @@
 import pytest
-from src.exercise import main
+from src.exercise import smallest
 
-def test_exercise(capsys):
-    main()
-    out, err = capsys.readouterr()
-    assert out == "\n", "Should read ''"
+def test_exercise():
+    assert smallest(3,2) == 2
+    assert smallest(2,7) == 2
